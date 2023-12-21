@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Recyclops</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login_image">Login Image</string>
+    <string name="lupa_password">Lupa Password ?</string>
+    <string name="tidak_punya_akun">Tidak Punya Akun ?</string>
+    <string name="daftar_sekarang">Daftar Sekarang</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="no_hp">No.HP</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="sudah_punya_akun">Sudah Punya Akun ?</string>
+    <string name="login_2">Login</string>
+    <string name="poin_anda">Poin Anda</string>
+    <string name="tahap_pengembangan">Tahap Pengembangan</string>
+    <string name="imagepreview">ImagePreview</string>
+    <string name="Shutter">shutter</string>
+    <string name="scan_sampah">Scan\nSampah</string>
+    <string name="bank_sampah">Bank\nSampah</string>
+    <string name="poin">Poin</string>
+    <string name="scan_barcode">Scan\nBarcode</string>
+    <string name="cara_pakai">Cara Pakai</string>
+    <string name="pelajari_lebih_lanjut">Pelajari Lebih Lanjut</string>
+    <string name="aplikasi_recyclops">Aplikasi Recyclops</string>
+    <string name="setoran_terakhir">Setoran Terakhir</string>
+    <string name="lihat_semua">Lihat Semua</string>
+
+    <string-array name="data_name">
+        <item>Kardus</item>
+        <item>Plastik</item>
+        <item>Botol Kaca</item>
+        <item>Plastik</item>
+        <item>Styrofoam</item>
+    </string-array>
+
+    <string-array name="data_quantity">
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="data_bank">
+        <item>Bank Sampah Kiaracondong</item>
+        <item>Bank Sampah Pondok Asri</item>
+        <item>Bank Sampah Cibiru</item>
+        <item>Bank Sampah Kiaraconong</item>
+        <item>Bank Sampah Pondok Indah</item>
+    </string-array>
+
+    <string-array name="data_image">
+        <item>@drawable/img_kardus</item>
+        <item>@drawable/img_plastik</item>
+        <item>@drawable/img_botol_kaca</item>
+        <item>@drawable/img_plastik</item>
+        <item>@drawable/img_styrofoam</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_profile">Profile\n</string>
+    <string name="image_sampah">Image Sampah\n</string>
+    <string name="profile">Profile</string>
+    <string name="transaksi">Transaksi</string>
+    <string name="nama">Nama</string>
+    <string name="trash_name">name</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="quantity_trash">quantity</string>
+    <string name="delete">Delete</string>
+    <string name="logout">Logout</string>
+    <string name="batal">Batal</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="foto_sampah">Foto Sampah</string>
+
+    <!--Map String-->
+    <string name="title_activity_maps">Maps</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="tukar_voucher_anda">Tukar Voucher Anda</string>
+    <string name="pln">PLN</string>
+    <string name="voucher_pln">Voucher PLN</string>
+    <string name="_66_kwh">66 kwh</string>
+    <string name="_100_poin">100 Poin</string>
+    <string name="gopay">GOPAY</string>
+    <string name="voucher_gopay">Voucher GoPay</string>
+    <string name="rp_100_000">Rp. 100.000</string>
+    <string name="playstore">Playstore</string>
+    <string name="voucher_playstore">Voucher Playstore</string>
+    <string name="logo">Logo</string>
+    <string name="bangkit_2023">Bangkit 2023</string>
+    <string name="copyright">copyright</string>
+    <string name="gambar_sampah">Gambar Sampah</string>
+    <string name="masukkan_berat">Masukkan Berat Per KG</string>
+    <string name="kirim">Kirim</string>
+    <string name="jenis_sampah">Jenis Sampah</string>
+    <string name="jenis_sampah_2">Jenis Sampah :</string>
+    <string name="scan_lagi">Scan Lagi ?</string>
+    <string name="tidak">Tidak</string>
+    <string name="ya">Ya</string>
+    <string name="_0">0</string>
+    <string name="masih_dalam_tahap_perkembangan">Masih Dalam Tahap Perkembangan</string>
+    <string name="map">map</string>
+    <string name="selamat_datang">Selamat Datang</string>
+
+</resources>

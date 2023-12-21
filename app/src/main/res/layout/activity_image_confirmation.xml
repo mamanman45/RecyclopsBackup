@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    tools:context=".ui.imageconfirmation.ImageConfirmationActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_trash_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/foto_sampah" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_cancel"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="35dp"
+            app:cardBackgroundColor="@color/red"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="64dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_cancel_24"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/batal"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/btn_cancel"
+            app:layout_constraintStart_toStartOf="@+id/btn_cancel"
+            app:layout_constraintTop_toBottomOf="@+id/btn_cancel" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_confirm"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="64dp"
+            app:cardBackgroundColor="@color/green_primary"
+            app:cardCornerRadius="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_check_circle_24"
+                android:contentDescription="@string/konfirmasi" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/konfirmasi"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/btn_confirm"
+            app:layout_constraintStart_toStartOf="@+id/btn_confirm"
+            app:layout_constraintTop_toBottomOf="@+id/btn_confirm" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

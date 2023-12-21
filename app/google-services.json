@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "85703532414",
+    "project_id": "recyclops-prototype",
+    "storage_bucket": "recyclops-prototype.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85703532414:android:38539cb4f75a534155dd2f",
+        "android_client_info": {
+          "package_name": "com.example.recyclops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85703532414-7019ckb9lrke7tj074c20sl8j9sjch2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwTvDX6aO0GCkMNNcnXoz6vJO1CMlbHSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85703532414-7019ckb9lrke7tj074c20sl8j9sjch2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
